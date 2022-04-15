@@ -3,7 +3,7 @@
  * The plugin bootstrap file
  *
  * @wordpress-plugin
- * Plugin Name:       PLUBO
+ * Plugin Name:       Custom Page Routes
  * Plugin URI:        https://sirvelia.com/
  * Description:       A WordPress plugin made with PLUBO.
  * Version:           1.0.0
@@ -20,11 +20,11 @@ if ( ! defined( 'WPINC' ) ) {
 	die('YOU SHALL NOT PASS!');
 }
 
-define( 'CUSTOM-PAGE-ROUTES_VERSION', '1.0.0' );
-define( 'CUSTOM-PAGE-ROUTES_PATH', plugin_dir_path( __FILE__ ) );
-define( 'CUSTOM-PAGE-ROUTES_URL', plugin_dir_url( __FILE__ ) );
+define( 'CUSTOM_PAGE_ROUTES_VERSION', '1.0.0' );
+define( 'CUSTOM_PAGE_ROUTES_PATH', plugin_dir_path( __FILE__ ) );
+define( 'CUSTOM_PAGE_ROUTES_URL', plugin_dir_url( __FILE__ ) );
 
-require_once CUSTOM-PAGE-ROUTES_PATH . 'vendor/autoload.php';
+require_once CUSTOM_PAGE_ROUTES_PATH . 'vendor/autoload.php';
 
 register_activation_hook( __FILE__, function() {
   CustomPageRoutes\Includes\Activator::activate();

@@ -19,7 +19,7 @@ class ReactLoader {
       global $apps;
       foreach ($apps as $script_handle) {
         $script_path       = 'apps/'.$script_handle.'/build/index.js';
-      	$script_asset_path = CUSTOM-PAGE-ROUTES_PATH . 'react/apps/' . $script_handle.'/build/index.asset.php';
+      	$script_asset_path = CUSTOM_PAGE_ROUTES_PATH . 'react/apps/' . $script_handle.'/build/index.asset.php';
       	$script_asset      = file_exists( $script_asset_path )
       		? require $script_asset_path
       		: array(

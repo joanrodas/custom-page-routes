@@ -20,13 +20,13 @@ class Loader {
 	protected $plugin_version;
 
 	public function __construct() {
-		$this->plugin_version = defined( 'CUSTOM-PAGE-ROUTES_VERSION' ) ? CUSTOM-PAGE-ROUTES_VERSION : '1.0.0';
+		$this->plugin_version = defined( 'CUSTOM_PAGE_ROUTES_VERSION' ) ? CUSTOM_PAGE_ROUTES_VERSION : '1.0.0';
 		$this->plugin_name = 'custom-page-routes';
     $this->load_dependencies();
 	}
 
 	private function load_dependencies() {
-		\PluboRoutes\PluboRoutesProcessor::init();
+		\PluboRoutes\RoutesProcessor::init();
 
 		$plugin_i18n = new Languages();
 
@@ -48,8 +48,8 @@ class Loader {
 		}, 22, 3);
 
 		add_action('wp_enqueue_scripts', function () {
-	    wp_enqueue_style('custom-page-routes/app.css', CUSTOM-PAGE-ROUTES_URL . 'dist/app.css', false, null);
-	    wp_enqueue_script('custom-page-routes/app.js', CUSTOM-PAGE-ROUTES_URL . 'dist/app.js', [], null, true);
+	    wp_enqueue_style('custom-page-routes/app.css', CUSTOM_PAGE_ROUTES_URL . 'dist/app.css', false, null);
+	    wp_enqueue_script('custom-page-routes/app.js', CUSTOM_PAGE_ROUTES_URL . 'dist/app.js', [], null, true);
 
 	    wp_localize_script( 'custom-page-routes/app.js', 'plugin_placeholder_ajax', array(
 	      'ajaxurl'   => admin_url( 'admin-ajax.php' ),

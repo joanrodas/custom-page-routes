@@ -1,6 +1,6 @@
 {
-    "name": "joanrodas/plubo",
-    "type": "template",
+    "name": "joanrodas/custom-page-routes",
+    "type": "wordpress-plugin",
     "description": "A Simple and fast WP Plugin Boilerplate.",
     "keywords": ["plugin", "wordpress", "boilerplate", "wp"],
     "homepage": "https://github.com/joanrodas/plubo",
@@ -15,7 +15,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "PluginPlaceholder\\": ""
+        "CustomPageRoutes\\": ""
       }
     },
     "require": {
