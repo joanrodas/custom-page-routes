@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\Admin;
+namespace CustomPageRoutes\Admin;
 
 class AjaxActions {
 

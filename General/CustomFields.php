@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\General;
+namespace CustomPageRoutes\General;
 
 use Carbon_Fields\Container;
 use Carbon_Fields\Field;

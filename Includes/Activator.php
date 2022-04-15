@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\Includes;
+namespace CustomPageRoutes\Includes;
 
 class Activator {
 

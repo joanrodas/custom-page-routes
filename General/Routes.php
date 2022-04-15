@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\General;
+namespace CustomPageRoutes\General;
 
 use PluboRoutes\Route\Route;
 use PluboRoutes\Route\ActionRoute;

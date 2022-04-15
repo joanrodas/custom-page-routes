@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\General;
+namespace CustomPageRoutes\General;
 
 use PluboRoutes\Endpoint\GetEndpoint;
 use PluboRoutes\Endpoint\PostEndpoint;

@@ -1,7 +1,7 @@
 <?php
-namespace PluginPlaceholder\General;
+namespace CustomPageRoutes\General;
 
-use PluginPlaceholder\Includes\BladeLoader;
+use CustomPageRoutes\Includes\BladeLoader;
 
 class Shortcodes {
 

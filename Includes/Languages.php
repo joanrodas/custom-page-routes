@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\Includes;
+namespace CustomPageRoutes\Includes;
 
 class Languages {
 
@@ -8,7 +8,7 @@ class Languages {
 	}
 
 	public function load_plugin_textdomain() {
-		load_plugin_textdomain( 'plugin-placeholder', false, dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/' );
+		load_plugin_textdomain( 'custom-page-routes', false, dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/' );
 	}
 
 }

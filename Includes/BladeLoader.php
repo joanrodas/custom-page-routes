@@ -1,5 +1,5 @@
 <?php
-namespace PluginPlaceholder\Includes;
+namespace CustomPageRoutes\Includes;
 
 use Jenssegers\Blade\Blade;
 
@@ -9,9 +9,9 @@ class BladeLoader
     private $blade;
 
     private function __construct() {
-      $this->blade = new Blade(PLUGIN_PLACEHOLDER_PATH . 'resources/views', PLUGIN_PLACEHOLDER_PATH . 'resources/cache');
+      $this->blade = new Blade(CUSTOM-PAGE-ROUTES_PATH . 'resources/views', CUSTOM-PAGE-ROUTES_PATH . 'resources/cache');
       add_action( 'init', function() {
-        foreach ( glob(PLUGIN_PLACEHOLDER_PATH . 'resources/directives/*.php') as $filename ) {
+        foreach ( glob(CUSTOM-PAGE-ROUTES_PATH . 'resources/directives/*.php') as $filename ) {
           require_once $filename;
         }
       }, 1 );

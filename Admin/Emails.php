@@ -1,7 +1,7 @@
 <?php
-namespace PluginPlaceholder\Admin;
+namespace CustomPageRoutes\Admin;
 
-use PluginPlaceholder\Includes\BladeLoader;
+use CustomPageRoutes\Includes\BladeLoader;
 
 class Emails {
 

@@ -1,8 +1,8 @@
 <p align="center">
-  <img src='https://raw.githubusercontent.com/joanrodas/plubo-docs/main/images/plubo.png' alt='Plubo' />
+  <img src='https://raw.githubusercontent.com/joanrodas/custom-page-routes-docs/main/images/plubo.png' alt='Plubo' />
 </p>
 
-[![GitHub stars](https://img.shields.io/github/stars/joanrodas/plubo?style=for-the-badge)](https://github.com/joanrodas/plubo/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/joanrodas/custom-page-routes?style=for-the-badge)](https://github.com/joanrodas/custom-page-routes/stargazers)
 
 
 Plubo is a really simple WordPress plugin boilerplate created to speed up plugin development.
@@ -16,9 +16,9 @@ Plubo is a really simple WordPress plugin boilerplate created to speed up plugin
 <br/>
 
 ## Getting started
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/joanrodas/plubo/On%20Template?label=build&style=for-the-badge)
-![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/joanrodas/plubo?style=for-the-badge)
-[![GitHub issues](https://img.shields.io/github/issues/joanrodas/plubo?style=for-the-badge)](https://github.com/joanrodas/plubo/issues)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/joanrodas/custom-page-routes/On%20Template?label=build&style=for-the-badge)
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/joanrodas/custom-page-routes?style=for-the-badge)
+[![GitHub issues](https://img.shields.io/github/issues/joanrodas/custom-page-routes?style=for-the-badge)](https://github.com/joanrodas/custom-page-routes/issues)
 
 There are 2 options to start using Plubo:
 
@@ -30,7 +30,7 @@ If you intend to use GitHub for your project, your best option is to create a ne
 
 ### 2. With composer
 
-`composer create-project joanrodas/plubo <PROJECT_NAME>`
+`composer create-project joanrodas/custom-page-routes <PROJECT_NAME>`
 
 > After creating the project, use the command php plubo add to add Alpine.js, React and/or environment variables to your project.
 
@@ -54,8 +54,8 @@ If you need to use React in your project, Plubo can prepare a simple structure f
 <br/>
 
 ## Contributions
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/joanrodas/plubo/issues)
-[![GitHub license](https://img.shields.io/github/license/joanrodas/plubo?style=for-the-badge)](https://github.com/joanrodas/plubo/blob/main/LICENSE)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/joanrodas/custom-page-routes/issues)
+[![GitHub license](https://img.shields.io/github/license/joanrodas/custom-page-routes?style=for-the-badge)](https://github.com/joanrodas/custom-page-routes/blob/main/LICENSE)
 
 
 Feel free to contribute to the project, suggesting improvements, reporting bugs and coding.
