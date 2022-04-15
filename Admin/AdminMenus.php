@@ -15,11 +15,27 @@ class AdminMenus {
 		$this->plugin_version = $plugin_version;
 		$this->blade = BladeLoader::getInstance();
 
-		$this->add_menus();
+		add_action( 'admin_menu', array($this, 'add_admin_menus') );
 	}
 
-	private function add_menus() {
+	public function add_admin_menus() {
 
+		// add_menu_page(
+    //     __( 'Custom Page Routes', 'custom-page-routes' ),
+    //     __( 'Custom Page Routes', 'custom-page-routes' ),
+    //     'manage_options',
+    //     'custom-page-routes',
+    //     function() {
+		// 				$this->display_template('settings');
+		// 		},
+    //     'dashicons-flag',
+    //     6
+    // );
+
+	}
+
+	private function display_template(string $template) {
+			echo $this->blade->template($template);
 	}
 
 }
