@@ -19,7 +19,7 @@ class Shortcodes {
 	}
 
 	public function add_shortcodes() {
-    add_shortcode( 'test', array($this, 'example_function') );
+    // add_shortcode( 'test', array($this, 'example_function') );
     return;
 	}
 
