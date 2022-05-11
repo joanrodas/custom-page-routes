@@ -1142,20 +1142,29 @@
     "@roots/container" "5.7.7"
     tslib "^2.3.1"
 
+"@roots/bud-framework@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.npmjs.org/@roots/bud-framework/-/bud-framework-5.8.0.tgz"
+  integrity sha512-VBBpzpu31TYwmtAkNeHQhtqFKEcM9h/FO2PrDJUc3zN9blbzDTQAAxGHGiQSm7krD0ZCgvLkN4CIdwZbCSkcQA==
+  dependencies:
+    "@roots/bud-support" "5.8.0"
+    "@roots/container" "5.8.0"
+    tslib "2.3.1"
+
 "@roots/bud-hooks@5.7.7":
   version "5.7.7"
   resolved "https://registry.npmjs.org/@roots/bud-hooks/-/bud-hooks-5.7.7.tgz"
   integrity sha512-4tCiPHWlldTrfXeM9DislBw/Xt15o6V6dclku+21GvhyBAQ29ugzBLrDcrNcP1lWmNcqYSMlKJTxb9JR/qX+Pw==
 
-"@roots/bud-imagemin@5.7.7":
-  version "5.7.7"
-  resolved "https://registry.npmjs.org/@roots/bud-imagemin/-/bud-imagemin-5.7.7.tgz"
-  integrity sha512-lZD1pajlWCqmGYppd2ZR6qjS8rE19dHqlFDUTlFesbGPnbChOUPUxEWz+an/w09IwwaYOACowZn0Z+9jE3lGfg==
+"@roots/bud-imagemin@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.npmjs.org/@roots/bud-imagemin/-/bud-imagemin-5.8.0.tgz"
+  integrity sha512-STSz2HWmfCBCOPkKGB98hH6TFcoNmc9rt4N5B5equEUpZqll9im/7meAfH9FpULWXkFMf/nVYrAjLHgXRAkLhg==
   dependencies:
-    "@squoosh/lib" "^0.4.0"
-    helpful-decorators "^2.1.0"
-    image-minimizer-webpack-plugin "^3.0.0"
-    tslib "^2.3.1"
+    "@roots/bud-framework" "5.8.0"
+    "@squoosh/lib" "0.4.0"
+    image-minimizer-webpack-plugin "^3.2.3"
+    tslib "2.3.1"
 
 "@roots/bud-postcss@5.7.7":
   version "5.7.7"
@@ -1207,6 +1216,11 @@
   version "5.7.7"
   resolved "https://registry.npmjs.org/@roots/bud-support/-/bud-support-5.7.7.tgz"
   integrity sha512-5c7KHDYQhlVfuXE/5f/nq8p7s5MNkV+nE7ftdHg9lpsEDXmf9fBmaiANYi5tTvyzno6VnB87S3njYoYFLXwV9Q==
+
+"@roots/bud-support@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.npmjs.org/@roots/bud-support/-/bud-support-5.8.0.tgz"
+  integrity sha512-7MaTbENUhB9zF6uOe2PDmlgCTI93CzYNzG4Pkmmb/A7wzN6LegEte6LkkczufxK8Aq/IBbwgnRKdzudVWhBQ7Q==
 
 "@roots/bud-tailwindcss@5.7.7":
   version "5.7.7"
@@ -1270,6 +1284,14 @@
   dependencies:
     tslib "^2.3.1"
 
+"@roots/container@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.npmjs.org/@roots/container/-/container-5.8.0.tgz"
+  integrity sha512-nORuqUNIgbEoDE5jChO11d0qqoHF845c/OwQmjgyqHD1DN97G85n61hisAjws6+JFmWencqk7BfOa2LzSPbgJQ==
+  dependencies:
+    helpful-decorators "2.1.0"
+    tslib "2.3.1"
+
 "@roots/dependencies@5.7.7":
   version "5.7.7"
   resolved "https://registry.npmjs.org/@roots/dependencies/-/dependencies-5.7.7.tgz"
@@ -1279,7 +1301,7 @@
     helpful-decorators "^2.1.0"
     tslib "^2.3.1"
 
-"@squoosh/lib@^0.4.0":
+"@squoosh/lib@0.4.0":
   version "0.4.0"
   resolved "https://registry.npmjs.org/@squoosh/lib/-/lib-0.4.0.tgz"
   integrity sha512-O1LyugWLZjMI4JZeZMA5vzfhfPjfMZXH5/HmVkRagP8B70wH3uoR7tjxfGNdSavey357MwL8YJDxbGwBBdHp7Q==
@@ -3323,7 +3345,7 @@ he@^1.2.0:
   resolved "https://registry.npmjs.org/he/-/he-1.2.0.tgz"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
-helpful-decorators@^2.1.0:
+helpful-decorators@2.1.0, helpful-decorators@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/helpful-decorators/-/helpful-decorators-2.1.0.tgz"
   integrity sha512-RiJEDqSD5c7zmNbx0EgcOvHMOu793Q5M51Q8lS+EHtBmxVE89s95ScMg0bLmLqMl2mA+JEU6WfXkyGLcdYb0wg==
@@ -3439,7 +3461,7 @@ ignore@^5.1.8, ignore@^5.1.9, ignore@^5.2.0:
   resolved "https://registry.npmjs.org/ignore/-/ignore-5.2.0.tgz"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
-image-minimizer-webpack-plugin@^3.0.0:
+image-minimizer-webpack-plugin@^3.2.3:
   version "3.2.3"
   resolved "https://registry.npmjs.org/image-minimizer-webpack-plugin/-/image-minimizer-webpack-plugin-3.2.3.tgz"
   integrity sha512-a8mG+lTvIGLFnlU4BpDqbw2tr0IC+R2T57Lx+xGNCR5R6WccZ/gmL8P3y8ic0bOYL1azmh2L6+PptccdjIYqqw==
@@ -4289,9 +4311,9 @@ ms@2.1.3, ms@^2.1.1:
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
 nanoid@^3.3.1:
-  version "3.3.2"
-  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.2.tgz"
-  integrity sha512-CuHBogktKwpm5g2sRgv83jEy2ijFzBwMoYA60orPDR7ynsLijJDqgsi4RDGj3OJpy3Ieb+LYwiRmIOGyytgITA==
+  version "3.3.4"
+  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
+  integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
 
 natural-compare@^1.4.0:
   version "1.4.0"
