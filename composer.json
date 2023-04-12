@@ -20,8 +20,8 @@
     },
     "require": {
       "php": ">=7.4",
-      "htmlburger/carbon-fields": "3.5.3",
-      "joanrodas/plubo-routes": "0.5.5"
+      "htmlburger/carbon-fields": "v3.6.0",
+      "joanrodas/plubo-routes": "v0.5.5"
     },
     "scripts": {
       "zip": [
